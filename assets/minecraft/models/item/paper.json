@@ -1,0 +1,56 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "powergolf:powerfields/speed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "powergolf:powerfields/jump"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "powergolf:flags/golf_flag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "powergolf:balls/player_golf_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "powergolf:item/golf_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "powergolf:powerfields/wind"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "powergolf:item/last_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "powergolf:item/reset"
+    }
+  ]
+}

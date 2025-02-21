@@ -1,0 +1,16 @@
+{
+  "powergolf.main_theme": {
+    "sounds": [
+      {
+        "name": "powergolf/powergolf_music",
+        "volume": 0.5,
+        "stream": true
+      }
+    ]
+  },
+  "powergolf.countdown": {
+    "sounds": [
+      "powergolf/countdown"
+    ]
+  }
+}

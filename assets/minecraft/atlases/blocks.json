@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "clubs",
+      "prefix": "clubs/"
+    },
+    {
+      "type": "directory",
+      "source": "powerfields",
+      "prefix": "powerfields/"
+    },
+    {
+      "type": "directory",
+      "source": "balls",
+      "prefix": "balls/"
+    },
+    {
+      "type": "directory",
+      "source": "flags",
+      "prefix": "flags/"
+    }
+  ]
+}
