@@ -8,6 +8,78 @@
       "chars": [
         "耀"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/team.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "⾣"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/moderator.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "⫽"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/star.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "⟎"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/elite.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "⎖"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/mvp.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "⑄"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/vip_plus.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "ⱊ"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/vip.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "Ⳡ"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/guest.png",
+      "height": 16,
+      "ascent": 16,
+      "chars": [
+        "⎭"
+      ]
     }
   ]
 }
