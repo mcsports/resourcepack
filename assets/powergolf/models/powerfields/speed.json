@@ -1,6 +1,0 @@
-{
-  "parent": "powergolf:powerfields/generic_speed",
-  "textures": {
-    "layer0": "powergolf:powerfields/speed"
-  }
-}
