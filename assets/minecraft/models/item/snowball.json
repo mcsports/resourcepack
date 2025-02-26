@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "particle": "powergolf:balls/empty",
-    "layer0": "powergolf:balls/empty"
-  }
-}

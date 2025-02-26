@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "glyphs/logo.png",
+      "file": "glyphs/powergolf_logo.png",
       "height": 16,
       "ascent": 16,
       "chars": [
