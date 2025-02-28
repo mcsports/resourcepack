@@ -3,7 +3,8 @@ name: Generate Pack Bindings
 on:
   workflow_dispatch:
   push:
-    branch: main
+    branches:
+      - main
 
 jobs:
   build:
@@ -15,12 +16,12 @@ jobs:
         id: commit_hash
         run: echo "COMMIT_HASH=1.0-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Resource pack binding generator
-        uses: solid-resourcepack/binder-action@v0.3.5
+        uses: solid-resourcepack/binder-action@v1.0.0
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
-          namespaces: "powergolf"
+          namespaces: "lobby"
           should_publish: 'true'
           repo_user: 'deploy'
           repo_url: 'https://repo.mcsports.club/releases'
