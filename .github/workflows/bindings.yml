@@ -16,7 +16,7 @@ jobs:
         id: commit_hash
         run: echo "COMMIT_HASH=1.0-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Resource pack binding generator
-        uses: solid-resourcepack/binder-action@v1.0.0
+        uses: solid-resourcepack/binder-action@v1.0.1
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
