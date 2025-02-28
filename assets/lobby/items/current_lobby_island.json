@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "lobby:item/current_lobby_island"
+  }
+}

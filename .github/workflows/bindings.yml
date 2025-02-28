@@ -21,7 +21,7 @@ jobs:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
-          namespaces: "lobby"
+          namespaces: "generic,lobby"
           should_publish: 'true'
           repo_user: 'deploy'
           repo_url: 'https://repo.mcsports.club/releases'

@@ -9,6 +9,48 @@
         "custom_model_data": 1
       },
       "model": "lobby:item/invite_to_party"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "generic:item/chevron_left"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "generic:item/chevron_right"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "generic:item/shopping_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "lobby:item/gym_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "lobby:item/lobby_island"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "lobby:item/current_lobby_island"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "lobby:item/profile"
     }
   ]
 }
