@@ -1,3 +1,5 @@
 {
-  "soundCategory.voice": "MCSports Sounds"
+  "soundCategory.voice": "MCSports Sounds",
+  "chestScreen.header.player": "",
+  "container.inventory": ""
 }

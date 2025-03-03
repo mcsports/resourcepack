@@ -84,10 +84,19 @@
     {
       "type": "bitmap",
       "file": "glyphs/gui/main_menu.png",
-      "height": 138,
-      "ascent": 13,
+      "height": 257,
+      "ascent": 14,
       "chars": [
         "圝"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/blank.png",
+      "height": -3,
+      "ascent": -2000,
+      "chars": [
+        "⡝"
       ]
     }
   ]
