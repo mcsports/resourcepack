@@ -1,0 +1,29 @@
+name: Publish ZIP
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch if needed
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Version
+        run: |
+          GIT_HASH=$(git rev-parse --short HEAD)
+          echo "GIT_HASH=$GIT_HASH" >> $GITHUB_ENV
+
+      - name: Create ZIP Archive
+        run: |
+          zip -r repo.zip . -x ".git/*" ".github/*" "README*" "readme*"
+
+      - name: Upload ZIP File
+        run: |
+          curl -X POST "http://${{ env.HOST_IP }}:${{ env.HOST_PORT }}/post/pack/main/${{ env.GIT_HASH }}" \
+            -F "file=@repo.zip"
+
