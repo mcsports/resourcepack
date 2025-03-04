@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "lobby:item/close_button"
+    "model": "generic:item/close_button"
   }
 }
