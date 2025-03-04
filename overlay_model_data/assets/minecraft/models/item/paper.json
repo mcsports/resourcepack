@@ -51,6 +51,12 @@
         "custom_model_data": 8
       },
       "model": "lobby:item/profile"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "lobby:item/bowling_icon"
     }
   ]
 }
