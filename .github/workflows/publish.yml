@@ -24,6 +24,6 @@ jobs:
 
       - name: Upload ZIP File
         run: |
-          curl -X POST "https://pack.mcsports.club/post/pack/main/${{ env.GIT_HASH }}" \
+          curl -H "Authorization: Bearer ${{ secrets.HOST_SECRET }}" -X POST "https://pack.mcsports.club/post/pack/main/${{ env.GIT_HASH }}" \
             -F "file=@repo.zip"
 
