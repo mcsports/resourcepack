@@ -1,0 +1,77 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/bow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "item/crossbow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.58
+      },
+      "model": "item/crossbow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 1.0
+      },
+      "model": "item/crossbow_pulling_2"
+    },
+    {
+      "predicate": {
+        "charged": 1
+      },
+      "model": "item/crossbow_arrow"
+    },
+    {
+      "predicate": {
+        "charged": 1,
+        "firework": 1
+      },
+      "model": "item/crossbow_firework"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "powergolf:item/putter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "powergolf:item/driver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "powergolf:item/iron_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "powergolf:item/iron_7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "powergolf:item/pitching_wedge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "powergolf:item/sand_wedge"
+    }
+  ]
+}
