@@ -19,31 +19,27 @@ jobs:
         uses: solid-resourcepack/binder-action@v1.0.1
         with:
           package: "club.mcsports.generated"
-          artifact_id: "bindings-generic"
+          artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
           namespaces: "generic"
-          should_publish: 'true'
-          repo_user: 'deploy'
-          repo_url: 'https://repo.mcsports.club/releases'
-          repo_password: ${{ secrets.REPO_TOKEN }}
+          classname: 'GenericPackBindings'
       - name: Resource pack lobby binding generator
         uses: solid-resourcepack/binder-action@v1.0.1
         with:
           package: "club.mcsports.generated"
-          artifact_id: "bindings-lobby"
+          artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
           namespaces: "lobby"
-          should_publish: 'true'
-          repo_user: 'deploy'
-          repo_url: 'https://repo.mcsports.club/releases'
-          repo_password: ${{ secrets.REPO_TOKEN }}
+          classname: 'LobbyPackBindings'
+
       - name: Resource pack golf binding generator
         uses: solid-resourcepack/binder-action@v1.0.1
         with:
           package: "club.mcsports.generated"
-          artifact_id: "bindings-golf"
+          artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
           namespaces: "powergolf"
+          classname: 'GolfPackBindings'
           should_publish: 'true'
           repo_user: 'deploy'
           repo_url: 'https://repo.mcsports.club/releases'
