@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "particle": "generic:item/empty",
+    "layer0": "generic:item/empty"
+  }
+}

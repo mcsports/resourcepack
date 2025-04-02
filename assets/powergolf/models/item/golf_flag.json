@@ -1,0 +1,6 @@
+{
+  "parent": "powergolf:item/generic_golf_flag",
+  "textures": {
+    "layer0": "powergolf:item/golf_flag"
+  }
+}

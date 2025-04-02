@@ -1,0 +1,6 @@
+{
+  "parent": "powergolf:item/generic_speed",
+  "textures": {
+    "layer0": "powergolf:item/speed"
+  }
+}

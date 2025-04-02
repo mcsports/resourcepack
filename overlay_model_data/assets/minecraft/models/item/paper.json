@@ -105,6 +105,54 @@
         "custom_model_data": 17
       },
       "model": "lobby:item/clubhouse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "powergolf:item/speed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "powergolf:item/jump"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "powergolf:item/golf_flag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "powergolf:item/player_golf_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "powergolf:item/golf_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "powergolf:item/wind"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "powergolf:item/last_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "powergolf:item/reset"
     }
   ]
 }
