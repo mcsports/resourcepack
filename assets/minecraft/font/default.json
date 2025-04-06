@@ -92,6 +92,15 @@
     },
     {
       "type": "bitmap",
+      "file": "glyphs/icon16.png",
+      "height": 13,
+      "ascent": 9,
+      "chars": [
+        "䶵"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "glyphs/blank.png",
       "height": -3,
       "ascent": -2000,
