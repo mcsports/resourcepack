@@ -92,6 +92,15 @@
     },
     {
       "type": "bitmap",
+      "file": "glyphs/gui/manage_party_menu.png",
+      "height": 257,
+      "ascent": 14,
+      "chars": [
+        "⮉"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "glyphs/icon16.png",
       "height": 13,
       "ascent": 9,
