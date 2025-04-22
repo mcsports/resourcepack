@@ -159,6 +159,30 @@
         "custom_model_data": 26
       },
       "model": "lobby:item/balloons"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "generic:item/document_holder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "generic:item/padlock_locked"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "generic:item/padlock_unlocked"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "generic:item/trash_bin"
     }
   ]
 }
