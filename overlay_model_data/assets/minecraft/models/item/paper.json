@@ -153,6 +153,12 @@
         "custom_model_data": 25
       },
       "model": "powergolf:item/reset"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "lobby:item/balloons"
     }
   ]
 }
