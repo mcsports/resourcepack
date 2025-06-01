@@ -116,6 +116,24 @@
       "chars": [
         "⡝"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/balloons.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "⽯"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/blank.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "𐅆"
+      ]
     }
   ]
 }
