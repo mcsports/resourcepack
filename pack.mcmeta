@@ -15,6 +15,13 @@
           "max_inclusive": 45
         },
         "directory": "overlay_model_data"
+      },
+      {
+        "formats": {
+          "min_inclusive": 4,
+          "max_inclusive": 46
+        },
+        "directory": "overlay_legacy_shader"
       }
     ]
   }
