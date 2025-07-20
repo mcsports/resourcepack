@@ -134,6 +134,15 @@
       "chars": [
         "𐅆"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/hourglass.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "⌛"
+      ]
     }
   ]
 }
