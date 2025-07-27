@@ -143,6 +143,87 @@
       "chars": [
         "⌛"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/admin_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "Ꜳ"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/elite_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "Ꝋ"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/guest_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "𑶗"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/moderator_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "𑧅"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/mvp_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "𖫵"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/star_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "𖠪"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/team_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "ꤊ"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/vip_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "꩜"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glyphs/ranks/vip_plus_long.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": [
+        "Ϳ"
+      ]
     }
   ]
 }
