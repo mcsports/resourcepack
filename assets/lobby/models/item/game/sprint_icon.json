@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lobby:item/masterchefs_icon"
+    "layer0": "lobby:item/game/sprint_icon"
   }
 }

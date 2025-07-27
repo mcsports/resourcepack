@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "lobby:item/masterchefs_icon"
+    "model": "lobby:item/game/bowling_icon"
   }
 }

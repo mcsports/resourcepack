@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "lobby:item/sprint_icon"
+    "model": "lobby:item/game/pool_icon"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lobby:item/gym_bag"
+    "layer0": "lobby:item/game/glide_icon"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "lobby:item/game/grayed_out/bowling_icon"
+  }
+}

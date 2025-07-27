@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "lobby:item/pool_icon"
+    "model": "lobby:item/game/clubhouse"
   }
 }

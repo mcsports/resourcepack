@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lobby:item/sprint_icon"
+    "layer0": "lobby:item/game/grayed_out/golf_icon"
   }
 }
