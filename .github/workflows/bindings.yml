@@ -16,7 +16,7 @@ jobs:
         id: commit_hash
         run: echo "COMMIT_HASH=1.0-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Resource pack generic binding generator
-        uses: solid-resourcepack/binder-action@v1.0.1
+        uses: solid-resourcepack/binder-action@v1.0.2
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
@@ -24,7 +24,7 @@ jobs:
           namespaces: "generic"
           classname: 'GenericPackBindings'
       - name: Resource pack lobby binding generator
-        uses: solid-resourcepack/binder-action@v1.0.1
+        uses: solid-resourcepack/binder-action@v1.0.2
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
@@ -33,7 +33,7 @@ jobs:
           classname: 'LobbyPackBindings'
 
       - name: Resource pack golf binding generator
-        uses: solid-resourcepack/binder-action@v1.0.1
+        uses: solid-resourcepack/binder-action@v1.0.2
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
