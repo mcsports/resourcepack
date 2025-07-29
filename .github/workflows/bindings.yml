@@ -16,34 +16,35 @@ jobs:
         id: commit_hash
         run: echo "COMMIT_HASH=1.0-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Resource pack generic binding generator
-        uses: solid-resourcepack/binder-action@v1.0.2
+        uses: solid-resourcepack/binder-action@v1.0.3
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
           namespaces: "generic"
           classname: 'GenericPackBindings'
-          version: "1.1.5"
+          depth: '5'
           
       - name: Resource pack lobby binding generator
-        uses: solid-resourcepack/binder-action@v1.0.2
+        uses: solid-resourcepack/binder-action@v1.0.3
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
           namespaces: "lobby"
           classname: 'LobbyPackBindings'
-          version: "1.1.5"
+          depth: '5'
 
       - name: Resource pack golf binding generator
-        uses: solid-resourcepack/binder-action@v1.0.2
+        uses: solid-resourcepack/binder-action@v1.0.3
         with:
           package: "club.mcsports.generated"
           artifact_id: "bindings"
           artifact_version: ${{ env.COMMIT_HASH }}
           namespaces: "powergolf"
           classname: 'GolfPackBindings'
-          version: "1.1.5"
+          depth: '5'
+          
           should_publish: 'true'
           repo_user: 'deploy'
           repo_url: 'https://repo.mcsports.club/releases'
