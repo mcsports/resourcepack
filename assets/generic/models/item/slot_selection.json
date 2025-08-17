@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "generic:item/slot_selection"
+  },
+  "display": {
+    "gui": {
+      "scale": [1.33, 1.33, 1.33],
+      "translation": [0, 18, 0]
+    }
+  }
+}
