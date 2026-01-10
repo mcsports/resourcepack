@@ -2,5 +2,6 @@
   "model": {
     "type": "minecraft:model",
     "model": "generic:item/slot_selection"
-  }
+  },
+  "oversized_in_gui": true
 }
