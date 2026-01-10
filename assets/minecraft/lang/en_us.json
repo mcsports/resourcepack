@@ -1,5 +1,6 @@
 {
   "soundCategory.voice": "MCSports Sounds",
   "chestScreen.header.player": "",
-  "container.inventory": ""
+  "container.inventory": "",
+  "effect.minecraft.hunger": "mcsports.club"
 }
